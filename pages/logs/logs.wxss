@@ -1,0 +1,58 @@
+/* .log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.log-item {
+  margin: 10rpx;
+} */
+.container_word{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.container_item{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.word{
+  width: 150rpx;
+  height: 150rpx;
+  background: #00cccc;
+  margin: 14rpx;
+  border-radius: 10rpx;
+  box-shadow: 0 4rpx 8rpx 0 rgba(0, 0, 0, 0.1), 0 6rpx 20rpx 0 rgba(0, 0, 0, 0.2);
+  line-height: 140rpx;
+}
+
+.phrase_item{
+  background-color: #00cccc;
+  opacity: 0.6;
+  width: 80%;
+  height: 300rpx;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30rpx;
+   box-shadow: 0 4rpx 8rpx 0 rgba(0, 0, 0, 0.1), 0 6rpx 20rpx 0 rgba(0, 0, 0, 0.2);
+  border-radius:20rpx;
+  margin-top: 16%;
+}
+
+.phrase_word{
+  display: block;
+  padding-top: 14%;
+  text-align: center;
+  font-size: 40rpx;
+}
+
+.phrase_para{
+  display: block;
+  padding-top: 2%;
+  text-align: center;
+  font-size: 30rpx;
+}
+
+.phrase_img{
+  margin-left: 20rpx;
+}

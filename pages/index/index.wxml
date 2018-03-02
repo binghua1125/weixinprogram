@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<view class='page'>
+  <view class='page_slide'>
+  </view>
+
+  <view class="container {{open ? 'c-state2':''}}">
+    <view class='interest_setting'>
+      <image style="width: 20px; height: 20px;" src="{{src}}" bindtap='tap_ch'></image>
+    </view>
+    <view class='phrase_list'>
+      <block wx:for="{{phrases}}" wx:for-item="phrase">
+        <view class="phrase_item">
+          <view class='phrase_word'>
+            <text >{{phrase.word}}</text>
+            <image class='phrase_img' style="width: 20px; height: 20px;" src="{{videoSrc}}"></image>
+          </view>
+          <text class='phrase_para'>{{phrase.paraphrase}}</text>
+        </view>  
+      </block>
+    </view>
+  </view>
+</view>

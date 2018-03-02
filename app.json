@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/review/review"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "学一学",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "resources/selphrase.png",
+        "iconPath": "resources/phrase.png",
+        "pagePath": "pages/index/index",
+        "text": "短语"
+      },
+      {
+        "selectedIconPath": "resources/selword.png",
+        "iconPath": "resources/word.png",
+        "pagePath": "pages/logs/logs",
+        "text": "单词"
+      },
+      {
+        "selectedIconPath": "resources/selreview.png",
+        "iconPath": "resources/review.png",
+        "pagePath": "pages/review/review",
+        "text": "复习"
+      }
+    ]
+  }
+}

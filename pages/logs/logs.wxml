@@ -1,0 +1,14 @@
+<!--logs.wxml-->
+<view class="phrase_item">
+  <view class='phrase_word'>
+    <text >{{selectedWord.text}}</text>
+      <image class='phrase_img' style="width: 20px; height: 20px;" src="{{videoSrc}}"></image>
+  </view>
+  <text class='phrase_para'>{{selectedWord.paraphrase}}</text>
+</view>
+
+<view class="container_word" wx:for="{{words}}" wx:for-index="groupIndex">
+  <view class='container_item' wx:for="{{words[groupIndex]}}" wx:for-item='word' wx:for-index="wordIndex">
+    <text class='word' bindtap='changeWord' data-word='{{word}}'>{{word.text}}</text>
+  </view>
+</view>

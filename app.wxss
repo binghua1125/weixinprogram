@@ -1,0 +1,31 @@
+/**app.wxss**/
+
+.page{
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+  display: flex; 
+  flex-direction: column;
+  box-sizing: border-box;
+  position: fixed;
+  width:750rpx;
+  z-index: 0;
+  transition: all 0.4s ease;
+} 
+
+.page_slide{
+  height: 100%;
+  position: fixed;
+  width:750rpx;
+  z-index: 0;
+}
+
+.c-state1{
+  transform: rotate(0deg) scale(1) translate(75%,0%)
+}
+
+.c-state2{
+  transform: rotate(0deg) scale(.8) translate(75%,0%)
+}
